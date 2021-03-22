@@ -9,6 +9,9 @@
 @implementation DeviceControlCellHelper
 + (NSString *)cellIdentifierWithSchemaModel:(TuyaSmartSchemaModel *)schema {
     NSString *type = [schema.type isEqualToString:@"obj"] ? schema.property.type : schema.type;
+    if ([@"ro" isEqualToString:schema.mode]) {
+        return @"device-label-cell";
+    }
     if ([type isEqualToString:@"bool"]) {
         return @"device-switch-cell";
     } else if ([type isEqualToString:@"enum"]) {
@@ -28,6 +31,9 @@
 
 + (DeviceControlCellType)cellTypeWithSchemaModel:(TuyaSmartSchemaModel *)schema {
     NSString *type = [schema.type isEqualToString:@"obj"] ? schema.property.type : schema.type;
+    if ([@"ro" isEqualToString:schema.mode]) {
+        return DeviceControlCellTypeLabelCell;
+    }
     if ([type isEqualToString:@"bool"]) {
         return DeviceControlCellTypeSwitchCell;
     } else if ([type isEqualToString:@"enum"]) {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		179F87E140080FC0AA04AAF4 /* Pods_TuyaSmartPlanter_ObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEA1BD393325D8AE353B75E /* Pods_TuyaSmartPlanter_ObjC_Tests.framework */; };
+		51F84BFE47068010896F5D6F /* libPods-TuyaSmartPlanter-ObjC_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E37E1B55315780F9237ED397 /* libPods-TuyaSmartPlanter-ObjC_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -18,6 +18,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		9241B5175A137643BBEA01A2 /* libPods-TuyaSmartPlanter-ObjC_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A37F8380830CD57771A32 /* libPods-TuyaSmartPlanter-ObjC_Example.a */; };
 		AFA3294225D0E33C0065E54E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3293725D0E3220065E54E /* main.m */; };
 		AFA329BD25D0E3500065E54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3294525D0E34F0065E54E /* AppDelegate.m */; };
 		AFA329BE25D0E3500065E54E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3294825D0E34F0065E54E /* SceneDelegate.m */; };
@@ -61,7 +62,6 @@
 		AFA329F225D0E3500065E54E /* NotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329B925D0E3500065E54E /* NotificationName.m */; };
 		AFA329F325D0E3500065E54E /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA329BA25D0E3500065E54E /* UIButton+Extensions.m */; };
 		AFA32A1225D0EBAB0065E54E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA32A1025D0EBAB0065E54E /* Localizable.strings */; };
-		BA1EC9A7444E21B85CBEDCC0 /* Pods_TuyaSmartPlanter_ObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43368AE2AAE6DE10BBC29BCA /* Pods_TuyaSmartPlanter_ObjC_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,9 +75,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F49B7B31210D454847DF69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		132A37F8380830CD57771A32 /* libPods-TuyaSmartPlanter-ObjC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartPlanter-ObjC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFB48BF43C1F37FBF83E93C /* Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartPlanter-ObjC_Example/Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43368AE2AAE6DE10BBC29BCA /* Pods_TuyaSmartPlanter_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaSmartPlanter_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TuyaSmartPlanter-ObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuyaSmartPlanter-ObjC_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,11 +177,11 @@
 		AFA32A0325D0E4190065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HomeList.strings"; sourceTree = "<group>"; };
 		AFA32A1125D0EBAB0065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AFA32A1725D0ED1E0065E54E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		B304DB8BC98C208E40A7CB5D /* TuyaSmartPlanter-ObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "TuyaSmartPlanter-ObjC.podspec"; path = "../TuyaSmartPlanter-ObjC.podspec"; sourceTree = "<group>"; };
-		BCEA1BD393325D8AE353B75E /* Pods_TuyaSmartPlanter_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaSmartPlanter_ObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B304DB8BC98C208E40A7CB5D /* TuyaSmartPlanter-ObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "TuyaSmartPlanter-ObjC.podspec"; path = "../TuyaSmartPlanter-ObjC.podspec"; sourceTree = "<group>"; };
 		CD5AAACBAA1F1B755E5B35A9 /* Pods-TuyaSmartPlanter-ObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartPlanter-ObjC_Tests.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartPlanter-ObjC_Tests/Pods-TuyaSmartPlanter-ObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CFDBC926471A26B71C4F6B09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFDBC926471A26B71C4F6B09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D87BA94F831C5DB79B536F57 /* Pods-TuyaSmartPlanter-ObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartPlanter-ObjC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TuyaSmartPlanter-ObjC_Tests/Pods-TuyaSmartPlanter-ObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E37E1B55315780F9237ED397 /* libPods-TuyaSmartPlanter-ObjC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaSmartPlanter-ObjC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +192,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BA1EC9A7444E21B85CBEDCC0 /* Pods_TuyaSmartPlanter_ObjC_Example.framework in Frameworks */,
+				9241B5175A137643BBEA01A2 /* libPods-TuyaSmartPlanter-ObjC_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +203,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				179F87E140080FC0AA04AAF4 /* Pods_TuyaSmartPlanter_ObjC_Tests.framework in Frameworks */,
+				51F84BFE47068010896F5D6F /* libPods-TuyaSmartPlanter-ObjC_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +218,6 @@
 				D87BA94F831C5DB79B536F57 /* Pods-TuyaSmartPlanter-ObjC_Tests.debug.xcconfig */,
 				CD5AAACBAA1F1B755E5B35A9 /* Pods-TuyaSmartPlanter-ObjC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -251,8 +249,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				43368AE2AAE6DE10BBC29BCA /* Pods_TuyaSmartPlanter_ObjC_Example.framework */,
-				BCEA1BD393325D8AE353B75E /* Pods_TuyaSmartPlanter_ObjC_Tests.framework */,
+				132A37F8380830CD57771A32 /* libPods-TuyaSmartPlanter-ObjC_Example.a */,
+				E37E1B55315780F9237ED397 /* libPods-TuyaSmartPlanter-ObjC_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -310,7 +308,6 @@
 			isa = PBXGroup;
 			children = (
 				B304DB8BC98C208E40A7CB5D /* TuyaSmartPlanter-ObjC.podspec */,
-				07F49B7B31210D454847DF69 /* README.md */,
 				CFDBC926471A26B71C4F6B09 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -373,13 +370,13 @@
 			isa = PBXGroup;
 			children = (
 				AFA3299325D0E3500065E54E /* Cell */,
+				AFA3299225D0E3500065E54E /* DeviceListTableViewController.h */,
+				AFA329A125D0E3500065E54E /* DeviceListTableViewController.m */,
+				AFA3299125D0E3500065E54E /* DeviceControlTableViewController.h */,
+				AFA329A225D0E3500065E54E /* DeviceControlTableViewController.m */,
+				AFA329A025D0E3500065E54E /* DeviceDetailTableViewController.h */,
 				AFA3298F25D0E3500065E54E /* DeviceDetailTableViewController.m */,
 				AFA3299025D0E3500065E54E /* DeviceControlCellHelper.h */,
-				AFA3299125D0E3500065E54E /* DeviceControlTableViewController.h */,
-				AFA3299225D0E3500065E54E /* DeviceListTableViewController.h */,
-				AFA329A025D0E3500065E54E /* DeviceDetailTableViewController.h */,
-				AFA329A125D0E3500065E54E /* DeviceListTableViewController.m */,
-				AFA329A225D0E3500065E54E /* DeviceControlTableViewController.m */,
 				AFA329A325D0E3500065E54E /* DeviceControlCellHelper.m */,
 			);
 			path = "Device Management";
@@ -495,6 +492,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Tuya;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 94JFPTRDN5;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -562,25 +563,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartPlanter-ObjC_Example/Pods-TuyaSmartPlanter-ObjC_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/TuyaSmartPlanter-ObjC/TuyaSmartPlanter_ObjC.framework",
 				"${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework",
 				"${PODS_ROOT}/TuyaSmartQUIC/Carthage/Build/iOS/TuyaSmartQUIC.framework.dSYM",
 				"${PODS_ROOT}/TuyaSmartUtil/Carthage/Build/iOS/TuyaSmartUtil.framework",
 				"${PODS_ROOT}/TuyaSmartUtil/Carthage/Build/iOS/TuyaSmartUtil.framework.dSYM",
-				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaSmartPlanter_ObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaSmartQUIC.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/TuyaSmartQUIC.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaSmartUtil.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/TuyaSmartUtil.framework.dSYM",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -638,12 +631,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TuyaSmartPlanter-ObjC_Example/Pods-TuyaSmartPlanter-ObjC_Example-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/TuyaSmartBaseKit/ios/TuyaSmartBaseKit.framework/Versions/A/Resources/cerficate_v2",
 				"${PODS_ROOT}/TuyaSmartDefaultPanelKit/ios/TuyaSmartDefaultPanelKit.framework/Versions/A/Resources/TuyaSmartDefaultPanel.bundle",
 				"${PODS_ROOT}/TuyaSmartUtil/Carthage/Build/iOS/TuyaSmartUtil.framework/TuyaSmartUtil.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cerficate_v2",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartDefaultPanel.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSmartUtil.bundle",
@@ -925,12 +920,18 @@
 			baseConfigurationReference = 75CA81028CFEEBC2F15D818E /* Pods-TuyaSmartPlanter-ObjC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaSmartPlanter-ObjC/TuyaSmartPlanter-ObjC-Prefix.pch";
 				INFOPLIST_FILE = "TuyaSmartPlanter-ObjC/TuyaSmartPlanter-ObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanhu.smartplanter.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -941,12 +942,18 @@
 			baseConfigurationReference = 2BFB48BF43C1F37FBF83E93C /* Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaSmartPlanter-ObjC/TuyaSmartPlanter-ObjC-Prefix.pch";
 				INFOPLIST_FILE = "TuyaSmartPlanter-ObjC/TuyaSmartPlanter-ObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanhu.smartplanter.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
